@@ -22,8 +22,8 @@ public:
 };
 
 int main() {
-    Location home("Home", 1.0, 2.0);
-    Location school("School", 4.0, 6.0);
+    Location home("Home", 0.0, 0.0);
+    Location school("Office", 3.0, 4.0);
 
     std::cout << "Distance from " << home.name << " to " << school.name 
               << ": " << home.distanceTo(school) << std::endl;
