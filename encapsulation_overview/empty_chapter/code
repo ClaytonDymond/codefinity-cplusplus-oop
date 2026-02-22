@@ -15,7 +15,7 @@ public:
     void addMoney(double amount) {
         if(amount > 0.0f) {
             balance += amount;
-            std::cout << "$" << amount << " added to " << owner << "'s wallet." << std::endl;
+            std::cout << amount << "$ added to " << owner << "'s wallet." << std::endl;
         } else {
             std::cout << "Invalid amount!" << std::endl;
         }
